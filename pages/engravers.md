@@ -6,6 +6,7 @@ cloud-min:
 cloud-stopwords:
 ---
 
-## Browse Authors
+## Browse Engravers
 
-Example custom cloud page.
+Use this word cloud visualization to browse engravers.
+Word size is determined by frequency and all words link to a corresponding collection search.
