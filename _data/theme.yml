@@ -30,7 +30,7 @@ subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g.
 ##########
 # ENGRAVERS PAGE
 #
-engravers-fields: engravers # set the field to be featured in the cloud (if left blank, none will be generated)
+engravers-fields: engraver # set the field to be featured in the cloud (if left blank, none will be generated)
 engravers-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
@@ -66,7 +66,7 @@ year-nav-increment: 5 # set increments when auto gen nav years
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "objectid,title,format,filename,subject,identifier,illustrator,painter,engraver,description,imagealttext,extent,date,publisher,streetaddress,location,latitude,longitude,identifier,platenumber,rightsstatement"
+metadata-export-fields: "title,subject,identifier,illustrator,painter,engraver,description,imagealttext,date,location,latitude,longitude,source,identifier,type,format,extent,publisher,platenumber,rightsstatement"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
 
